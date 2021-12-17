@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    width: 30%;
+    margin: 30px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.box.lightgray {
+    background-color: lightgray;
+}
+
+.box.lightgreen {
+    background-color: lightgreen;
+}
